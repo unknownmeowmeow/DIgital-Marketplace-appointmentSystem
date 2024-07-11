@@ -16,7 +16,7 @@ header {
     top: 0;
     left: 0;
     z-index: 10;
-    padding: 0 10px;
+    padding: 0 6px;
 }
 .navbar {
     display: flex;
@@ -39,13 +39,23 @@ header {
     text-decoration: none;
 }
 .navbar .logo img {
-    width: 40px;
-    border-radius: 50%;
+    width: 160px;
+    height: 120px;
+    
 }
 .navbar .logo h2 {
     color: #fff;
-    font-weight: 600;
+    font-weight: 10;
     font-size: 1.7rem;
+    text-align: center;
+    position: 10px;
+    
+}
+.navbar .logo h3 {
+    color: #fff;
+    font-weight: 5;
+    font-size: 1.7rem;
+    
 }
 .navbar .links {
     display: flex;
@@ -84,7 +94,7 @@ header {
     transition: 0.15s ease;
 }
 .navbar .login-btn:hover {
-    background: #ddd;
+    background: #0c0c0c;
 }
 .form-popup {
     position: fixed;
@@ -300,6 +310,36 @@ form button:hover {
     .form-box .form-content {
         padding: 30px 20px;
     }
+}
+.or{
+    font-size:1.1rem;
+    margin-top:0.5rem;
+    text-align:center;
+}
+.icons{
+    text-align:center;
+}
+.icons i{
+    color:rgb(125,125,235);
+    padding:0.8rem 1.5rem;
+    border-radius:10px;
+    font-size:1.5rem;
+    cursor:pointer;
+    border:2px solid #dfe9f5;
+    margin:0 15px;
+    transition:1s;
+}
+.icons i:hover{
+    background:#07001f;
+    font-size:1.6rem;
+    border:2px solid rgb(125,125,235);
+}
+.links{
+    display:flex;
+    justify-content:space-around;
+    padding:0 4rem;
+    margin-top:0.9rem;
+    font-weight:bold;
 }
 #chat-box {
     position: fixed;
